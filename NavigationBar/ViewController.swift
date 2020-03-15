@@ -15,7 +15,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         avatarImage.layer.borderWidth = 3.0
         avatarImage.layer.borderColor = UIColor.lightGray.cgColor
+
+        
+        //testCommit2
+
         //addNewCommit
+
 
     }
 
