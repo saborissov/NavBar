@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         avatarImage.layer.borderWidth = 3.0
         avatarImage.layer.borderColor = UIColor.lightGray.cgColor
         //addNewCommit
+        
+        //testCommit2
 
     }
 
