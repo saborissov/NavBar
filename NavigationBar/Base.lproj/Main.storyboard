@@ -18,11 +18,45 @@
                     </tabBar>
                     <connections>
                         <segue destination="MOB-X4-mix" kind="relationship" relationship="viewControllers" id="VHu-rL-WD9"/>
+                        <segue destination="2RF-wP-Frw" kind="relationship" relationship="viewControllers" id="Ldh-K3-0TL"/>
+                        <segue destination="dRs-nl-tul" kind="relationship" relationship="viewControllers" id="fjd-eJ-U2I"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZI-h1-Ul7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-26" y="-672"/>
+        </scene>
+        <!--Друзья-->
+        <scene sceneID="zOo-r6-upv">
+            <objects>
+                <viewController id="2RF-wP-Frw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bIz-vR-a2P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="GDk-sZ-Xov"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Друзья" image="person.3" catalog="system" id="RMZ-Nz-HVg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hzu-Tj-Gbo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-194" y="140"/>
+        </scene>
+        <!--Фото-->
+        <scene sceneID="Jvs-s5-Ylx">
+            <objects>
+                <viewController id="dRs-nl-tul" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FHB-TN-7wF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="mKk-Gh-B0N"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Фото" image="square.grid.2x2" catalog="system" id="i05-gR-5wW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pqd-pp-sIG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="532" y="140"/>
         </scene>
         <!--Профиль-->
         <scene sceneID="tne-QT-ifu">
@@ -32,7 +66,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leo" translatesAutoresizingMaskIntoConstraints="NO" id="r06-FK-LGf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wom" translatesAutoresizingMaskIntoConstraints="NO" id="r06-FK-LGf">
                                 <rect key="frame" x="127.5" y="67" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="yy9-rY-w9W"/>
@@ -44,14 +78,14 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leo Dicaprio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXe-Oo-gom">
-                                <rect key="frame" x="143" y="195" width="89.5" height="19.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Woman" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXe-Oo-gom">
+                                <rect key="frame" x="160.5" y="195" width="54.5" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from titanic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xma-Ap-f1b">
-                                <rect key="frame" x="156" y="215.5" width="63.5" height="14.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from you're dream" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xma-Ap-f1b">
+                                <rect key="frame" x="136.5" y="215.5" width="102" height="14.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -128,7 +162,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Профиль" image="person" catalog="system" id="AOx-nu-0Zx"/>
                     <navigationItem key="navigationItem" title="Профиль" id="vb5-Oh-h7H">
-                        <barButtonItem key="rightBarButtonItem" title="test" image="person.fill" catalog="system" id="d2G-bF-Wxg">
+                        <barButtonItem key="rightBarButtonItem" title="test" image="pencil.tip.crop.circle" catalog="system" id="d2G-bF-Wxg">
                             <connections>
                                 <segue destination="1a6-6z-lKZ" kind="show" id="9bV-yP-7Xn"/>
                             </connections>
@@ -142,11 +176,11 @@
             </objects>
             <point key="canvasLocation" x="1660" y="-672"/>
         </scene>
-        <!--Item-->
+        <!--Профиль-->
         <scene sceneID="PxX-fK-PVb">
             <objects>
                 <navigationController id="MOB-X4-mix" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="yJw-He-87q"/>
+                    <tabBarItem key="tabBarItem" title="Профиль" image="person" catalog="system" id="yJw-He-87q"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PAb-kI-r9b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -172,28 +206,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ic-Q3-rr7">
-                                <rect key="frame" x="164" y="318" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="goToNext:" destination="1a6-6z-lKZ" eventType="touchUpInside" id="qyU-WE-LaE"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter some one" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5do-2n-TZk" userLabel="dwdw">
-                                <rect key="frame" x="77" y="247" width="220" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="leG-R9-Rov"/>
                     </view>
                     <navigationItem key="navigationItem" title="Настройки" id="ZOE-v4-9lo"/>
-                    <connections>
-                        <outlet property="textField" destination="5do-2n-TZk" id="u3b-gX-RK9"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fz9-Ss-kX2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -222,12 +238,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JAq-H6-vx4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2470" y="126"/>
+            <point key="canvasLocation" x="2553" y="127"/>
         </scene>
     </scenes>
     <resources>
-        <image name="leo" width="284" height="230"/>
+        <image name="pencil.tip.crop.circle" catalog="system" width="64" height="60"/>
         <image name="person" catalog="system" width="64" height="58"/>
-        <image name="person.fill" catalog="system" width="64" height="60"/>
+        <image name="person.3" catalog="system" width="72" height="35"/>
+        <image name="square.grid.2x2" catalog="system" width="64" height="56"/>
+        <image name="wom" width="320" height="240"/>
     </resources>
 </document>
